@@ -1,0 +1,18 @@
+ros__parameters:
+  planning_frame: base_link
+  ee_frame_name: tool0
+  command_in_type: twist_stamped
+  cartesian_command_in_topic: delta_twist_cmds
+  publish_joint_positions: true
+
+  scale:
+    linear: 0.2
+    rotational: 0.5
+
+  move_group_name: ur_manipulator
+  joint_topic: /joint_states
+
+  collision_check_rate: 10
+  collision_proximity_threshold: 0.05
+  hard_stop_distance: 0.01
+

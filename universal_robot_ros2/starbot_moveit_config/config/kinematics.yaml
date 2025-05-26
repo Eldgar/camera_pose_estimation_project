@@ -1,0 +1,4 @@
+ur_manipulator:
+  kinematics_solver: kdl_kinematics_plugin/KDLKinematicsPlugin
+  kinematics_solver_search_resolution: 0.00050000000000000001
+  kinematics_solver_timeout: 1.0049999999999999
